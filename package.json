@@ -1,12 +1,12 @@
 {
-  "name": "mallard",
+  "name": "assort",
   "version": "0.1.0",
   "description": "Tools for manage migration scripts.",
-  "homepage": "https://github.com/RootPanel/Mallard",
+  "homepage": "https://github.com/RootPanel/Assort",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RootPanel/Mallard.git"
+    "url": "https://github.com/RootPanel/Assort.git"
   },
   "contributors": [
     {

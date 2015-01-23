@@ -5,7 +5,7 @@ _ = require 'underscore'
 
 logger = ->
   args = _.toArray arguments
-  args.unshift '[Mallard]'
+  args.unshift '[Assort]'
   console.log.apply @, args
 
 versionFromFile = (filename = '.version', name = 'version') ->
@@ -86,7 +86,7 @@ versionFromMongoDB = (uri, collection = '_version', name = 'version') ->
 
   }
 
-class Mallard
+class Assort
   tasks: []
 
   # storage: readVersion(callback(err)), saveVersion(version, callback(err))
@@ -131,6 +131,6 @@ class Mallard
       version: version
       worker: worker
 
-module.exports = _.extend Mallard,
+module.exports = _.extend Assort,
   fromFile: versionFromFile
   fromMongoDB: versionFromMongoDB
